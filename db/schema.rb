@@ -43,7 +43,7 @@ ActiveRecord::Schema.define(version: 20161026224744) do
 
   create_table "groupings", force: :cascade do |t|
     t.integer  "group_id"
-    t.integer  "user_id"
+    t.integer  "member_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
